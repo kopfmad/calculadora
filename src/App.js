@@ -1,4 +1,3 @@
-import "./App.css";
 import MyButton from "./MyButton";
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
       <main>
         <div className="calculator">
           <div className="row1">
-            <input />
+            <input type="number" />
             <MyButton titulo="C" />
           </div>
           <div className="row2">
