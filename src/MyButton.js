@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function MyButton(props) {
-  return <button>{props.titulo}</button>;
+  function executado() {
+    props.parentfunction(props.titulo);
+  }
+
+  return <button onClick={executado}>{props.titulo}</button>;
 }
